@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login Dinâmico</string>
+    <string name="label_user">User:</string>
+    <string name="label_password">Password:</string>
+    <string name="text_welcome">Welcome to Panel System Login Dinâmico</string>
+    <string name="label_register">REGISTER</string>
+    <string name="user_registered">Registered User</string>
+    <string name="user_not_registered">User not Joined or Data is Invalid.</string>
+    <string name="sucess_register">Successfully registered</string>
+    <string name="invalid_data">Data do not exist or are Invalides!</string>
+    <string name="password_not_equals">Passwords do not match.</string>
+    <string name="login_in_use">User already exists. Try another name.</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="label_logout">LOGOUT</string>
+    <string name="label_repeat_password">Repeat the Password:</string>
+    <string name="label_cancel">CANCEL</string>
+
+</resources>

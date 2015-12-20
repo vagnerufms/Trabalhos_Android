@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App Calculadora/App Calculadora.iml" filepath="$PROJECT_DIR$/App Calculadora/App Calculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppCalc.iml" filepath="$PROJECT_DIR$/AppCalc.iml" />
+    </modules>
+  </component>
+</project>

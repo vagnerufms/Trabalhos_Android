@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <!-- Content here -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:id="@+id/textViewNome"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTextNome"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="#f3f3f3"
+        android:minHeight="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:id="@+id/textViewDescricao"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:layout_weight="1"
+        android:minLines="2"
+        android:maxLines="7"
+        android:hint="Write something"
+        android:scrollbars = "vertical"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/edtTextDescricao"
+        android:minHeight="200dp"
+        android:background="#f3f3f3"
+        android:layout_gravity="top"
+        android:padding="10dp"
+        android:gravity="top"
+        android:nestedScrollingEnabled="true"
+        android:scrollIndicators="right"
+        android:maxHeight="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço:"
+        android:id="@+id/textViewPreco"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtTextPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20dp"
+        android:width="200dp"
+        android:background="#f3f3f3"
+        android:minHeight="40dp"
+        android:numeric="signed|integer"
+        android:layout_gravity="center_horizontal"></EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_marginTop="3pt"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXCLUIR"
+            android:layout_marginRight="10px"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"></Button>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            android:layout_marginLeft="10px"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"></Button>
+
+        <Button
+            android:id="@+id/btnAtualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ATUALIZAR"
+            android:layout_marginLeft="10px"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"></Button>
+    </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login Dinâmico</string>
+    <string name="label_user">Usuario:</string>
+    <string name="label_register">REGISTRO</string>
+    <string name="label_password">Contraseña:</string>
+    <string name="invalid_data">Los datos no existen o son inválidos!</string>
+    <string name="login_in_use">El usuario ya existe. Pruebe con otro nombre.</string>
+    <string name="sucess_register">Con éxito registrado</string>
+    <string name="password_not_equals">Las contraseñas no coinciden.</string>
+    <string name="text_welcome">Bienvenido al Sistema de Panel de Login Dinâmico</string>
+    <string name="user_not_registered">Usuario no Registrado o datos no son válidos.</string>
+    <string name="user_registered">Usuario Registrado</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="label_logout">FINALIZAR LA SESIÓN</string>
+    <string name="label_repeat_password">Repita la contraseña:</string>
+    <string name="label_cancel">CANCELAR</string>
+</resources>

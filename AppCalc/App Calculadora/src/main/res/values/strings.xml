@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App Calculadora</string>
+    <string name="enter_a_number">Informe um Número!</string>
+    <string name="btn_clear">LIMPAR</string>
+    <string name="inputs_clear">Campos Resetados</string>
+    <string name="enter_number_different_zero">Informe um Número diferente de 0!</string>
+</resources>
