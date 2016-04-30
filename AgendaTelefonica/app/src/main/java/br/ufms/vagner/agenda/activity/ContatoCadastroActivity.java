@@ -29,7 +29,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.firebase.client.Firebase;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -40,6 +42,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
+
 import br.ufms.vagner.agenda.R;
 import br.ufms.vagner.agenda.model.Contato;
 import br.ufms.vagner.agenda.util.Alert;
@@ -377,8 +380,10 @@ public class ContatoCadastroActivity extends AppCompatActivity {
         contato.setTelefone(mTelefone.getText().toString());
         contato.setEmail(mEmail.getText().toString());
         contato.setId(getRandomString(20));
-        if (outputFileUri != null) {
-            contato.setImagem(new File(outputFileUri.getPath()).getName());
+        if (contato.getImagem() != null && !contato.getImagem().equals("") || outputFileUri != null) {
+            if(outputFileUri != null){
+                contato.setImagem(new File(outputFileUri.getPath()).getName());
+            }
         } else {
             contato.setImagem("");
         }

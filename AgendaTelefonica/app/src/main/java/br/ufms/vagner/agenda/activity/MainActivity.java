@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                             int qtdContatos = selected.size();
                             String mengagemExclusao = "";
-                            if (qtdContatos < 1) {
+                            if (qtdContatos < 2) {
                                 mengagemExclusao = qtdContatos + getString(R.string.msg_contato_excluido_sucesso);
                             } else {
                                 mengagemExclusao = qtdContatos + getString(R.string.msg_contatos_excluidos_sucesso);

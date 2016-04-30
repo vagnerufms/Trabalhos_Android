@@ -394,8 +394,10 @@ public class ContatoEditActivity extends AppCompatActivity {
         contato.setNome(mNome.getText().toString());
         contato.setTelefone(mTelefone.getText().toString());
         contato.setEmail(mEmail.getText().toString());
-        if (contato.getImagem() != null && !contato.getImagem().equals("")) {
-            contato.setImagem(new File(outputFileUri.getPath()).getName());
+        if (contato.getImagem() != null && !contato.getImagem().equals("") || outputFileUri != null) {
+            if(outputFileUri != null){
+                contato.setImagem(new File(outputFileUri.getPath()).getName());
+            }
         } else {
             contato.setImagem("");
         }
